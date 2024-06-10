@@ -1,0 +1,31 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between; /* 좌우 박스를 양 끝으로 배치 */
+    align-items: center; /* 수직 중앙 정렬 */
+    padding: 20px; /* 필요에 따라 패딩 조절 */
+    background-color: #fff;
+}
+
+.user-menu {
+    display: flex; /* 수정: inline-flex에서 flex로 변경 */
+    justify-content: space-between;
+    width: 100%; /* 추가: 사용자 메뉴가 전체 너비를 차지하도록 설정 */
+}
+
+.left-nav-box {
+    margin-top: 5px;
+    gap: 8px;
+    display: flex;
+    align-items: center; /* 수직 중앙 정렬 */
+}
+
+.left-nav-box img {
+    width: 24px;
+    height: 24px;
+}
+
+.right-nav-box {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* 추가: right-nav-box 내부의 아이템 간격 설정 */
+}
